@@ -1,0 +1,32 @@
+* { box-sizing: border-box; }
+body {
+  font-family: Inter, Arial, sans-serif;
+  background:#f4f6f8;
+  color:#222;
+  margin:0; padding:24px;
+}
+.container {
+  max-width:640px;
+  margin:24px auto;
+  background:#fff;
+  padding:20px;
+  border-radius:10px;
+  box-shadow:0 6px 18px rgba(0,0,0,0.06);
+}
+h1 { text-align:center; margin-bottom:18px; font-size:1.4rem; }
+.input-group { display:flex; gap:10px; margin-bottom:16px; }
+.input-group input {
+  flex:1; padding:10px 12px; font-size:1rem; border:1px solid #ddd; border-radius:6px;
+}
+.input-group button {
+  padding:10px 16px; font-size:1rem; border:none; border-radius:6px; cursor:pointer;
+  background:#2563eb; color:white;
+}
+.result-card { display:none; border:1px solid #e6e9ef; padding:14px; border-radius:8px; }
+.result-card p { margin:6px 0; }
+
+/* responsive */
+@media (max-width:480px) {
+  .input-group { flex-direction:column; }
+  .input-group button { width:100%; }
+}

@@ -1,0 +1,26 @@
+{
+  "1001": {
+    "name": "Alice Kumar",
+    "math": 85,
+    "science": 92,
+    "english": 78,
+    "total": 255,
+    "percentage": 85
+  },
+  "1002": {
+    "name": "Bob Rao",
+    "math": 75,
+    "science": 80,
+    "english": 70,
+    "total": 225,
+    "percentage": 75
+  },
+  "1003": {
+    "name" : "Charan",
+    "math" : 68,
+    "science" : 74,
+    "english" : 72,
+    "total" : 213,
+    "percentage" : 71
+  }
+}

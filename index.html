@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Student Result Portal — Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Student Result Portal</h1>
+
+    <form id="searchForm" class="input-group" autocomplete="off">
+      <input id="rollInput" name="roll" type="text" placeholder="Enter Roll Number (e.g. 1001)" />
+      <button type="submit">View Result</button>
+    </form>
+
+    <div style="display:flex; gap:10px; align-items:center; margin-bottom:12px;">
+      <button id="viewSqlBtn" style="padding:8px 12px; cursor:pointer; border-radius:6px; border:none; background:#10b981; color:white;">
+        View DB Schema (SQL)
+      </button>
+    </div>
+
+    <section id="resultArea" class="result-card" aria-live="polite"></section>
+    <pre id="sqlArea" class="result-card" style="display:none; white-space:pre-wrap; background:#f8fafc;"></pre>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
