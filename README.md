@@ -1,7 +1,7 @@
 # 📘 Student Result Portal — Version 2
 
 **Live Demo:** 👉 [Click here to view](https://student-result-portal-v2.netlify.app/)  
-**GitHub Repo:** 👉[Click here to View](https://github.com/saikiranreddy-282/student-result-portal-v2)
+**GitHub Repo:** 👉 [Click here to View](https://github.com/saikiranreddy-282/student-result-portal-v2)
 
 ---
 
